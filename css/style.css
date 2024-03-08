@@ -1,0 +1,32 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(0, 2, 131);
+}
+#content{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.box{
+    background-color: rgb(0, 103, 163);
+    color: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fizz{
+    background-color: rgb(3, 150, 3);
+}
+.buzz{
+    background-color: rgb(219, 197, 0);
+    color: black;
+}
+.fizz-buzz{
+    background-color: brown;
+}
