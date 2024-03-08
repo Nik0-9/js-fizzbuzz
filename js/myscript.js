@@ -40,5 +40,6 @@ for(let i = 1; i <= numBox; i++){
 }
 console.log(squareWraiter);
 squareWraiter.innerHTML = tmpHtml;
-// let container = document.querySelector('container');
-// container.append(squareWraiter);
+const container = document.querySelector('.container');
+console.log(container);
+container.append(squareWraiter);
