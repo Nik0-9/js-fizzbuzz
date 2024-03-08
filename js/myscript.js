@@ -18,7 +18,7 @@ let tmpHtml = '';
 let num = 0;
 
 for(let i = 1; i <= numBox; i++){
-    if(i %15 === 0){
+    if(i % 15 === 0){
         tmpHtml += `<div class="box fizz-buzz"> fizz buzz </div>`;
         num = 'fizzbuzz';
         console.log(num);
